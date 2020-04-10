@@ -1,1 +1,3 @@
 /aula/backend/node_modules
+/aula/tmp/*
+/aula/!tmp/.gitkeep
