@@ -2,7 +2,7 @@ const express = require("express");
 const routes = require("./routes");
 const mongoose = require("mongoose");
 const path = require("path");
-// const cors = require("cors");
+const cors = require("cors");
 
 
 const app = express();
@@ -12,9 +12,7 @@ app.use((req, res, next) => {
   next();
 });
 
-// app.use(cors({
-//   origin: '*'
-// }));
+app.use(cors());
 
 const server = require("http").Server(app);
 const io = require("socket.io")(server, {origins: "*:*"});
