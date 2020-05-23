@@ -1,25 +1,25 @@
 const Box = require("../models/Box");
 
-class BoxController {
+module.exports = {
   async store(req, res) {
     const boxName = req.body;
 
-    const box = await Box.create( boxName );
-    return res.json(box);
-  }
+    const box = await Box.create(boxName);
 
-  async show(req, res){
+    req.io.emit("connectRoom", box);
+    return res.json(box);
+  },
+
+  async show(req, res) {
     const box = await Box.findById(req.params.id).populate({
       path: "files",
       options: {
         sort: {
-          createdAt: -1
-        }
-      }
+          createdAt: -1,
+        },
+      },
     });
 
     return res.json(box);
-  }
-}
-
-module.exports = new BoxController();
+  },
+};
