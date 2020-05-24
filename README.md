@@ -16,7 +16,7 @@ Assim um time de pessoas, poderiam compartilhar dados uns com os outros para fim
 
 -----------------------------------------------------------------------------------------------------------------------
 
-![Preview](https://res.cloudinary.com/almleoc/image/upload/v1590326808/README.md/OmniStack06/RocketBox_01_lup6wi.png)
+![Preview](https://res.cloudinary.com/almleoc/image/upload/v1590327299/README.md/OmniStack06/RocketBox03_orq8fp.png)
 
 -----------------------------------------------------------------------------------------------------------------------
 
