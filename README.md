@@ -4,9 +4,11 @@
 # Semana OmniStack 06 - RocketBox
 ## Backend da aplicação.
 
-A aplicação tem como objetivo compartilhar arquivos, em Tempo Real, com quem estiver na mesma pasta/sala.
+Desenvolvida uma aplicação de compartilhamento de arquivos em Tempo Real, com quem estiver na mesma pasta/sala.
+Assim um time de pessoas, poderiam compartilhar dados uns com os outros para fim de agilizar processos de troca de informação.
 
-O Frontend da aplicação você encontra neste link: https://github.com/leocalmeida/omnistack06-frontend
+* O Frontend da aplicação você encontra neste link: [Frontend](https://github.com/leocalmeida/omnistack06-frontend)
 
+* Para conferir o resultado final, basta clicar no link a seguir: [Aplicação](https://omnistack-06-frontnd.herokuapp.com/)
 
 
